@@ -1,0 +1,134 @@
+.header{
+    height: 95px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 999;
+}
+.header_name{
+    background-color: gray;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+}
+.navbar{
+    display: flex;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     align-items: center;
+     margin-right: 14%;
+}
+.navbar:last-child li{
+    margin-left: 15px;
+}
+.navbar li a{
+    color: gray;
+    border-left: 1px solid gray;
+    padding-left: 6px;
+}
+.main{
+    display: flex;
+}
+.section_left{
+    display: flex;
+    flex-direction: column;
+  width: 630px;
+  margin-top: 40px;
+  border: 1px solid gray;
+  transform: translate(30%);
+  height: 600px;
+}
+.section_left h2{
+    font-size: 36px;
+    color: gray;
+    font-weight: 700;
+    border-bottom: 3px solid gray;
+    letter-spacing: 2px;
+    margin: 30px 30px;
+    padding-bottom: 15px;
+}
+.section_left_form{
+    display: flex;
+    flex-direction:column;
+    margin-top: -20px;
+}
+.input{
+    width: 90%;
+    height: 40px;
+    margin-left: 20px;
+
+}
+#mesaj{
+    width: 90%;
+    height: 200px;
+    margin-left: 20px;
+}
+.label{
+    font-size: 18px;
+    color: rgb(192, 166, 166);
+    margin-left: 10px;
+    padding: 10px;
+}
+.button{
+    background-color: rgb(133, 133, 174);
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+}
+
+
+.section_right{
+    width: 260px;
+    border: 1px solid gray;
+    height: 210px;
+    margin-top: 40px;
+    /* display: flex; */
+    transform: translate(100%);
+}
+.section_right h3{
+    font-size: 22px;
+    color: gray;
+    font-weight: 700;
+    border-bottom: 1px solid gray;
+    letter-spacing: 2px;
+    margin: 30px 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.section_right img{
+    width: 62px;
+    height: 62px;
+    transform: translate(47%);
+}
+.footer{
+    background-color: gray;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 10px solid rgb(209, 183, 183);
+    margin-top: 20px;
+}
+
+.footer h4{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(179, 156, 156);
+    letter-spacing: 2px;
+    margin: 30px 30px;
+    padding-bottom: 15px;
+    /* text-align: center; */
+}
